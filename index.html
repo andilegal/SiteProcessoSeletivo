@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" href="nivo-slider/nivo-slider.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" media="screen">
+  <title>Pagina Inicial</title>
+</head>
+
+<body>
+  <!--container-->
+  <div class="conteudoTotal">
+    <div class="container">
+      <div class="contatosuperior">
+        <span> 11 1234-1234</span>
+        <span class="primeiro"> 11 1234-1234</span>
+      </div>
+      <!--LOGO-->
+      <div class="logo">
+        <h2>IMAGEM</h2>
+      </div>
+      <!--MENU-->
+      <nav class="menu">
+        <ul>
+          <li>HOME</li>
+          <li>EMPRESA
+            <ul>
+              <li>SUBMENU</li>
+              <li>SUBMENU</li>
+              <li>SUBMENU</li>
+              <li>SUBMENU
+                <ul>
+                  <li>SUBMENU2</li>
+                  <li>SUBMENU2</li>
+                  <li>SUBMENU2</li>
+                  <li>SUBMENU2</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>CLIENTES
+          </li>
+          <li>CONTATO</li>
+        </ul>
+      </nav>
+      <!--slider-->
+      <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+          <div id="slider" class="nivoSlider">
+            <img src="nivo-slider/demo/images/nemo.jpg" alt="">
+            <img src="nivo-slider/demo/images/toystory.jpg" alt="">
+            <img src="nivo-slider/demo/images/up.jpg" alt="">
+            <img src="nivo-slider/demo/images/walle.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!--TEXTO DE HTML E CSS-->
+      <section class="corpo">
+        <div class="texto">
+          <h2>TESTE DE HTML E CSS</h2><br>
+          <p>Quesitos de avaliação:</p>
+          <br>
+          <ul>
+            <li>
+              <p>Organizacao do código(quanto mais limpo melhor)</p>
+            </li>
+            <li>
+              <p>Nivel de detalhismo (quanto mais identico melhor)</p>
+            </li>
+            <li>
+              <p>Tempo de desenvolvimento (Seja sincero ao enviar o tempo gasto);</p>
+            </li><br>
+            <p>Obrigado e boa sorte</p>
+          </ul>
+        </div>
+        <!--Imagem-->
+        <div class="imagem">
+          <h2>IMAGEM</h2>
+        </div>
+      </section>
+      <!--BOXES DE DESTAQUE-->
+      <section>
+        <h2 class="titulo">BOXES DE DESTAQUE</h2>
+        <div class="selection">
+          <h2>Imagem</h2>
+          <p>é simplesmente texto fictício</p>
+          <a href="">Clique aqui</a>
+        </div>
+        <div class="selection">
+          <h2>Imagem</h2>
+          <p>é simplesmente texto fictício</p>
+          <a href="">Clique aqui</a>
+        </div>
+        <div class="selection">
+          <h2>Imagem</h2>
+          <p>é simplesmente texto fictício</p>
+          <a href="">Clique aqui</a>
+        </div>
+        <div class="selection">
+          <h2>Imagem</h2>
+          <p>é simplesmente texto fictício</p>
+          <a href="">Clique aqui</a>
+        </div>
+      </section>
+      <div style="clear: both;"></div>
+
+      <!--RODAPE-->
+      <footer>
+        <div class="rodape">
+          <ul>
+            <li>HOME</li>
+            <li>EMPRESA</li>
+            <li>CLIENTES</li>
+            <li>CONTATO</li>
+          </ul>
+        </div>
+        <p>RODAPE</p>
+      </footer>
+    </div>
+  </div>
+  <script src="nivo-slider/jquery.nivo.slider.js"></script>
+  <script src="nivo-slider/demo/scripts/jquery-1.7.1.min.js"></script>
+  <script src="nivo-slider/jquery.nivo.slider.pack.js"></script>
+  <script type="text/javascript">
+    $(window).load(function () {
+      $('#slider').nivoSlider();
+    });     
+  </script>
+</body>
+
+</html>
